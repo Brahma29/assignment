@@ -39,28 +39,28 @@ function Signup(props) {
       className="container" 
       style={{ height: "75vh", paddingLeft: "16%", paddingTop : "1rem" }}
     >
-      <div class="card bg-dark text-white" style={{ width: "45rem"}}>
-        <div class="card-body">
+      <div className="card bg-dark text-white" style={{ width: "45rem"}}>
+        <div className="card-body">
           <form onSubmit={handleSubmit}>
-            <div class="mb-3 d-flex">
-              <label for="firstName" class="form-label w-25">
+            <div className="mb-3 d-flex">
+              <label htmlFor="firstName" className="form-label w-25">
                First Name
               </label>
               <input
                 type="text"
-                class="form-control w-50 h-25"
+                className="form-control w-50 h-25"
                 id="firstName"
                 aria-describedby="firstName"
                 onChange={onChange}
                 name = "firstName"
                 style={{marginLeft : "-5%"}}
               />
-              <label for="exampleInputEmail1" class="form-label w-25" style={{marginLeft : "3%"}} >
+              <label htmlFor="exampleInputEmail1" className="form-label w-25" style={{marginLeft : "3%"}} >
                 Last Name
               </label>
               <input
                 type="text"
-                class="form-control w-50 h-25"
+                className="form-control w-50 h-25"
                 id="lastName"
                 aria-describedby="lastName"
                 name = "lastName"
@@ -68,58 +68,58 @@ function Signup(props) {
                 style={{marginLeft : "-5%"}}
               />
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">
+            <div className="mb-3">
+              <label htmlFor="email" className="form-label">
                 E-Mail
               </label>
               <input
                 type="email"
-                class="form-control"
+                className="form-control"
                 id="email"
                 name = "email"
                 aria-describedby="emailHelp"
-                onChange={onChange}
+                onChange={onChange}Name
               />
             </div>
-            <div class="mb-3">
-              <label for="phone" class="form-label">
+            <div className="mb-3">
+              <label htmlFor="phone" className="form-label">
                 Phone
               </label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="exampleInputEmail1"
                 name = "phone"
                 aria-describedby="phone"
                 onChange={onChange}
               />
             </div>
-            <div class="mb-3">
-              <label for="address" class="form-label">
+            <div className="mb-3">
+              <label htmlFor="address" className="form-label">
                 Address
               </label>
               <input
                 type="text"
-                class="form-control"
+                className="form-control"
                 id="address"
                 name = "address"
                 aria-describedby="address"
                 onChange={onChange}
               />
             </div>
-            <div class="mb-3">
-              <label for="password" class="form-label">
+            <div className="mb-3">
+              <label htmlFor="password" className="form-label">
                 Password
               </label>
               <input
                 type="password"
-                class="form-control"
+                className="form-control"
                 id="password"
                 name = "password"
                 onChange={onChange}
               />
             </div>
-            <button type="submit" class="btn btn-primary">
+            <button type="submit" className="btn btn-primary">
               Submit
             </button>
             <Link to="/login" className="btn btn-primary mx-3">LogIn</Link>
