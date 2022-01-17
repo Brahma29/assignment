@@ -44,18 +44,18 @@ const Dashboard = () => {
       </h1>
       <div className="my-4">
         <div
-          class="card mx-auto"
+          className="card mx-auto"
           style={{ width: "50rem", height: "24rem", background: "#03071e" }}
         >
-          <div class="card-body text-white d-flex">
+          <div className="card-body text-white d-flex">
               <div className="imageUser my-4">
-              <i class="fas fa-user-circle fa-10x mx-5 my-4"></i>
+              <i className="fas fa-user-circle fa-10x mx-5 my-4"></i>
               </div>
               <div className="d-flex flex-column">
-            <h5 class="card-title mt-5" style={{fontSize : "25px"}}>Name : {credentials.firstName +" "+ credentials.lastName}</h5>
-            <h5 class="card-title mt-2" style={{fontSize : "25px"}}>E-mail : {credentials.email} </h5>
-            <h5 class="card-title mt-2" style={{fontSize : "25px"}}>Phone : {credentials.phone}</h5>
-            <h5 class="card-title mt-2" style={{fontSize : "25px"}}>Address : {credentials.address} </h5>
+            <h5 className="card-title mt-5" style={{fontSize : "25px"}}>Name : {credentials.firstName +" "+ credentials.lastName}</h5>
+            <h5 className="card-title mt-2" style={{fontSize : "25px"}}>E-mail : {credentials.email} </h5>
+            <h5 className="card-title mt-2" style={{fontSize : "25px"}}>Phone : {credentials.phone}</h5>
+            <h5 className="card-title mt-2" style={{fontSize : "25px"}}>Address : {credentials.address} </h5>
             </div>
           </div>
             <div className="d-flex justify-content-end">
